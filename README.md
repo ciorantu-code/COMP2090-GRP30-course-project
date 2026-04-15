@@ -41,3 +41,12 @@ student-lifeline-2090/
 ├── models.py                         # Data Layer (ABCs and Data definitions)
 ├── data_manager.py                   # Persistence Layer (File I/O operations)
 └── README.md                         # Project documentation
+
+Prerequisites
+Python 3.10 or higher (required for advanced type-hinting).
+
+Standard Python libraries: os, datetime, abc, tkinter.
+
+Dependencies
+The graphical user interface is built using customtkinter. You must install it before running the application:
+pip install customtkinter
