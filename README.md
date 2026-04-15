@@ -5,6 +5,27 @@
 Student Lifeline is a unified, centralized desktop application designed to help university students manage their academic lives. By consolidating academic deadlines, grade monitoring, campus lost-and-found, and course peer-reviews into a single interface, this application minimizes "cognitive load" and helps students stay organized.
 
 ---
+## 🚀 Installation & Usage
+
+Follow these steps to set up and run the application on your local machine.
+
+### 📋 Prerequisites
+
+Ensure your system meets the following requirements before proceeding:
+
+* **Python 3.10 or higher:** Required to support the advanced type-hinting used in this project. You can download the latest version from [python.org](https://www.python.org/downloads/).
+* **Standard Python Libraries:** `os`, `datetime`, `abc`, and `tkinter`. 
+  *(Note: These are built into standard Python installations, but Linux users may need to explicitly install the `python3-tk` package depending on their distribution).*
+
+### 📦 Dependencies
+
+The application's modern graphical user interface is built using **CustomTkinter**. You must install this external dependency before running the application.
+
+Install it via pip by running the following command in your terminal or command prompt:
+
+```bash
+pip install customtkinter
+
 
 ## ✨ Features
 
@@ -41,12 +62,3 @@ student-lifeline-2090/
 ├── models.py                         # Data Layer (ABCs and Data definitions)
 ├── data_manager.py                   # Persistence Layer (File I/O operations)
 └── README.md                         # Project documentation
-
-Prerequisites
-Python 3.10 or higher (required for advanced type-hinting).
-
-Standard Python libraries: os, datetime, abc, tkinter.
-
-Dependencies
-The graphical user interface is built using customtkinter. You must install it before running the application:
-pip install customtkinter
