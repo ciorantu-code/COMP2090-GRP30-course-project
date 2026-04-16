@@ -1,4 +1,4 @@
-# 🎓 Student Lifeline (2090 Version)
+# 🎓 Student Lifeline (2090 Version) Task 1
 <img width="1338" height="929" alt="image" src="https://github.com/user-attachments/assets/79413bbd-7edd-4ff0-b9fe-4eb00947a3ce" />
 
 
@@ -63,4 +63,11 @@ student-lifeline-2090/
 ├── gui_views.py                      # UI Layer (Polymorphic view classes)
 ├── models.py                         # Data Layer (ABCs and Data definitions)
 ├── data_manager.py                   # Persistence Layer (File I/O operations)
+├── Task1_user_guide_video.mp4                   # introduce to use our app
 └── README.md                         # Project documentation
+
+## 📂 Task2
+Graph ADT&Dijkstra’s Algorithm/
+│
+├── demo.py   # light programme that demonstrate the idea of the topics
+└── Task2_intro.mp4      # introduction of the study report
